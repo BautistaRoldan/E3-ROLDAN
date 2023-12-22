@@ -109,15 +109,21 @@ main{
 
 }
 
+
+.hero-info-button :first-child{
+    background-color: var(--cornell-red);
+}
 .hero-info a {
     color: var(--white-smoke);
     background-color: var(--eerie-black);
     width: 120px;
-    padding: 8px 0;
-    border-radius: 10px;
+    padding: 12px ;
+    border-radius: 9px;
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
+    align-items: center;    
 }
+
 
 .hero-card img{
     display: flex;
@@ -154,5 +160,106 @@ main{
     font-weight: 400px;
     
 }
+
+#cards{
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    padding: 70px 0;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+#cards h2{
+    font-size: 32px;
+    font-weight: 800px;
+
+}
+
+#cards p{
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 30px 0;
+}
+
+.cards-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.info-cards{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 290px;
+    padding: 40px 30;
+    align-items: center;
+    background-color: var(--cornell-red);
+    border-radius: 10px;
+    gap: 20px;
+}
+
+.info-cards img{
+    width: 50px;
+}
+
+.info-cards h3{
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.info-cards p{
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--eerie-black);
+}
+
+
+footer {
+    background-color: var(--eerie-black);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .Contacto {
+    margin-bottom: 20px;
+  }
+  
+  .contacto-info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contacto-info li {
+    margin-bottom: 8px;
+  }
+  
+  .Redes a {
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .logo-footer img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+ 
+
+ 
+    
+
 
 
